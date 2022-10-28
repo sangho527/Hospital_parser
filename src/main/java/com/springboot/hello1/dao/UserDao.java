@@ -17,4 +17,12 @@ public class UserDao {
         return this.jdbcTemplate.update("delete from users");
     }
 
+    public int add() {
+        return this.jdbcTemplate.update("insert into users");
+    }
+
+    public int deleteUser() {
+        return this.jdbcTemplate.update("delete from users where id=?");
+    }
+
 }
