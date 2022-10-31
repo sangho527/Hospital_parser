@@ -5,8 +5,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
-public class ReadLineContext {
+public class ReadLineContext<T> {
     private Parser<T> parser;
 
     public ReadLineContext(Parser<T> parser) {
