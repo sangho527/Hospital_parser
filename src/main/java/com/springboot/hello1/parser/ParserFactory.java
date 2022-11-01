@@ -1,4 +1,4 @@
-package parser;
+package com.springboot.hello1.parser;
 
 import com.springboot.hello1.domain.Hospital;
 import org.springframework.context.annotation.Bean;
