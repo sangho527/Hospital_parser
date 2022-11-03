@@ -1,3 +1,3 @@
-# spring-exercise
+# 전국 병의원 정보 데이터 파싱 
 
-SpringBoot 연습
+데이터 파싱 연습 입니다.
